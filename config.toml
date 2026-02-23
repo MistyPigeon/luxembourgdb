@@ -1,0 +1,13 @@
+[storage]
+# Options: "ram" or "disk"
+mode = "disk"
+path = "engine.db"
+page_size = 4096
+
+[performance]
+max_open_files = 100
+sync_on_write = true
+
+[metadata]
+name = "LuxembourgDB"
+version = "0.1.0"
